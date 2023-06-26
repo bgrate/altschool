@@ -1,0 +1,83 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6495548431d51bb58b974735.64955487dd90da8d34856760.HniKEXU.hcp.png");
+
+@font-face {
+  font-family: "Gilroy-Bold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Radomir Tinkov - Gilroy-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroy-Medium-☞";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold-☞";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Medium-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Radomir Tinkov - Gilroy-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroy-Bold-☞";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
